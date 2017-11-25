@@ -22,9 +22,9 @@ N_T_I     = length(T_I);          % Anzahl der Zeitpunkte eines Teilstuecks
 %% Berechnung der Trajektorie
 
 % Initialisierung fuer Teilstuecke
-S_I       = zeros( N_Q, N_T_I );
-dot_S_I   = zeros(size(S_I));
-ddot_S_I  = zeros(size(S_I));
+% S_I       = zeros( N_Q, N_T_I );
+% dot_S_I   = zeros(size(S_I));
+% ddot_S_I  = zeros(size(S_I));
 
 % Initialisierung fuer Gesamttrajektorie
 S         = zeros(N_Q,(N_T_I-1)*(N_I-1)+1);%N_Q=3, N_T_I=51, N_I=12
